@@ -1,16 +1,37 @@
-# e_commerce_app
+# E-Commerce App
 
-A new Flutter project.
+This is a simple e-commerce app built with Flutter. The app displays a list of products fetched from a provider and allows users to add products to their cart. The app also integrates with Firebase for backend services.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Display a list of products
+- View product details
+- Add products to the cart
+- View the cart
+- Firebase integration
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Firebase account: [Create a Firebase project](https://firebase.google.com/)
+  
+###Project Structure
+
+lib/
+├── main.dart
+├── models/
+│   └── product.dart
+├── providers/
+│   ├── cart_provider.dart
+│   └── products_provider.dart
+├── screens/
+│   ├── cart_screen.dart
+│   ├── home_screen.dart
+│   ├── product_detail_screen.dart
+│   └── products_overview_screen.dart
+└── widgets/
+    ├── badge.dart
+    └── product_item.dart
+
